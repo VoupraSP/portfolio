@@ -1,0 +1,34 @@
+.main {
+    display: flex;
+    gap: 6.25rem;
+    align-items: center;
+}
+
+.main .img-mainContent {
+    width: 30rem;
+}
+
+.main .exp-container h1 {
+    font-size: 4.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    position: relative;
+    border: 1px solid red;
+}
+
+.main .exp-container h1::before {
+    content: '';
+    width: 150px;
+    height: 150px;
+    display: block;
+    background: url('../img/detalhe.svg') no-repeat center;
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+    left: -50px;
+}
+
+.main .exp-container .exp-container-text {
+    font-size: 1.55rem;
+    color: #333;
+}
