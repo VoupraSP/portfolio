@@ -42,7 +42,7 @@ img, video {
 
   .container {
     max-width: 1200px;
-    height: 100vh;
+    height: fit-content;
+    padding: 60px 0;
     margin: 0 auto;
-    border: 1px solid red;
   }

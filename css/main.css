@@ -8,15 +8,14 @@
     width: 30rem;
 }
 
-.main .exp-container h1 {
+.main .personal-container h1 {
     font-size: 4.5rem;
     line-height: 1.2;
     margin-bottom: 1rem;
     position: relative;
-    border: 1px solid red;
 }
 
-.main .exp-container h1::before {
+.main .personal-container h1::before {
     content: '';
     width: 150px;
     height: 150px;
@@ -28,7 +27,7 @@
     left: -50px;
 }
 
-.main .exp-container .exp-container-text {
+.main .personal-container .personal-text {
     font-size: 1.55rem;
     color: #333;
 }
