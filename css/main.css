@@ -1,7 +1,3 @@
-.introducao-bg {
-    border: 1px solid red;
-}
-
 .main {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -40,6 +36,8 @@
         font-size: 18px;
     }
 }
+
+
 
 @media (max-width: 500px) {
     .main {

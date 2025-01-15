@@ -53,6 +53,14 @@ button, input, textarea, select {
   } 
 }
 
+.subtitulo {
+  font-size: 9rem;
+  width: 4ch;
+  word-break: break-all;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
 :root {
   --black-color: #000000;
   --white-color: #fff;
