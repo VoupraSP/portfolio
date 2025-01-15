@@ -42,13 +42,20 @@ button, input, textarea, select {
 
 .container {
   max-width: 1200px;
-  height: fit-content;
-  padding: 60px 0;
+  padding: 80px 20px;
   margin: 0 auto;
 } 
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 1200px;
+    padding: 60px 20px;
+  } 
+}
 
 :root {
   --black-color: #000000;
   --white-color: #fff;
   --bg-color: rgb(255, 255, 255);
+  --p-color:#333;
 }

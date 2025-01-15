@@ -1,33 +1,59 @@
+.introducao-bg {
+    border: 1px solid red;
+}
+
 .main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+}
+
+.main .personal-main {
     display: flex;
-    gap: 6.25rem;
-    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
 }
 
-.main .img-mainContent {
-    width: 30rem;
-}
-
-.main .personal-container h1 {
+.main .personal-main h1 {
     font-size: 4.5rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    position: relative;
+    line-height: 1.1;
 }
 
-.main .personal-container h1::before {
-    content: '';
-    width: 150px;
-    height: 150px;
-    display: block;
-    background: url('../img/detalhe.svg') no-repeat center;
-    position: absolute;
-    z-index: -1;
-    top: -35px;
-    left: -50px;
+.main .personal-main p {
+    font-size: 24px;
+    color: var(--p-color);
 }
 
-.main .personal-container .personal-text {
-    font-size: 1.55rem;
-    color: #333;
+
+
+@media (max-width: 800px) {
+
+    .main .personal-main {
+        gap: 10px;
+    }
+    .main .personal-main h1 {
+        font-size: 3rem;
+    }
+
+    .main .personal-main p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main {
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .personal-photo {
+        display: none;
+    }
+    .main .personal-main h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .main .personal-main p {
+        font-size: 16px;
+    }
 }
