@@ -1,25 +1,48 @@
-.header {
+.header-bg {
     background-color: lightgoldenrodyellow;
+}
+
+.header {
+    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.25rem 10rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.nav-container {
+.nav-menu {
+    border: 1px solid red;
+}
+
+.nav-content {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.25rem;
+    gap: 15px;
 }
 
-.nav-container a {
-    border-bottom: 2px solid transparent;
-    padding: 0.5rem 1rem;
-    color:black;
-    font-size: 1.25rem;
+.nav-content a {
+    border: 1px solid red;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 0;
+    position: relative;
 }
 
-.nav-container a:hover {
-    border-bottom: 2px solid black;
-    transition: 0.7s;
+.nav-content a::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: black;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.nav-content a:hover::after {
+    width: 100%;
 }
