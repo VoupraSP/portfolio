@@ -11,14 +11,8 @@
     justify-content: center;
 }
 
-.main .personal-main h1 {
-    font-size: 4.5rem;
-    line-height: 1.1;
-}
-
-.main .personal-main p {
-    font-size: 24px;
-    color: var(--p-color);
+.personal-photo img {
+    border-radius: 50%;
 }
 
 
@@ -27,13 +21,6 @@
 
     .main .personal-main {
         gap: 10px;
-    }
-    .main .personal-main h1 {
-        font-size: 3rem;
-    }
-
-    .main .personal-main p {
-        font-size: 18px;
     }
 }
 
@@ -46,10 +33,6 @@
     }
     .personal-photo {
         display: none;
-    }
-    .main .personal-main h1 {
-        font-size: 2rem;
-        text-align: center;
     }
     .main .personal-main p {
         font-size: 16px;

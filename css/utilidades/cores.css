@@ -1,0 +1,23 @@
+:root {
+    --black-color: #000000;
+    --white-color: #fff;
+    --bg-color: rgb(255, 255, 255);
+    --p-color:#333;
+  }
+
+  
+.cor-preto {
+    color: var(--black-color);
+}
+
+.cor-branco {
+    color: var(--white-color);
+}
+
+.cor-bg {
+    background-color: var(--bg-color);
+}
+
+.cor-cinza {
+    color: var(--p-color);
+}
