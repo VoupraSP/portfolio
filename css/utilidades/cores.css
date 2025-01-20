@@ -1,11 +1,14 @@
 :root {
     --black-color: #000000;
     --white-color: #fff;
-    --bg-color: rgb(255, 255, 255);
+    --bg-color: lightgray;
     --p-color:#333;
-  }
+}
 
-  
+.cor-cinza-leve {
+    background-color: var(--bg-color);
+}
+
 .cor-preto {
     color: var(--black-color);
 }
@@ -14,10 +17,7 @@
     color: var(--white-color);
 }
 
-.cor-bg {
-    background-color: var(--bg-color);
-}
-
 .cor-cinza {
     color: var(--p-color);
 }
+
